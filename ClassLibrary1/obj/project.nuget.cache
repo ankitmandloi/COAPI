@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CYOI3TwjoSAxr2YR4LZRMIqQVFHx8cyIYS4gD86L7716zaVJT1L+PMdDPgdaXQ1gheiUBlmk/GAqqkkEuanfmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amandloi3\\source\\repos\\COAPI\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amandloi3\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\amandloi3\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
