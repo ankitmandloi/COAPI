@@ -13,10 +13,10 @@ namespace COAPI
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Entities2 : DbContext
+    public partial class Entities5 : DbContext
     {
-        public Entities2()
-            : base("name=Entities2")
+        public Entities5()
+            : base("name=Entities5")
         {
         }
     
@@ -25,5 +25,6 @@ namespace COAPI
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Place_Order> Place_Order { get; set; }
     }
 }

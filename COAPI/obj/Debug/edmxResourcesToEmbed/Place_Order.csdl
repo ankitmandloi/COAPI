@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Place_Order">
+    <Key>
+      <PropertyRef Name="email" />
+    </Key>
+    <Property Name="rupya" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ph" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="pin" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="paisa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="firstname" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="lastname" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="countrycode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="country" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="buyerlname" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="buyerfname" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="state" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Entities5" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Place_Order" EntityType="Self.Place_Order" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Entities5">
+    <EntitySetMapping Name="Place_Order">
+      <EntityTypeMapping TypeName="Model1.Place_Order">
+        <MappingFragment StoreEntitySet="Place_Order">
+          <ScalarProperty Name="rupya" ColumnName="rupya" />
+          <ScalarProperty Name="ph" ColumnName="ph" />
+          <ScalarProperty Name="pin" ColumnName="pin" />
+          <ScalarProperty Name="paisa" ColumnName="paisa" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="countrycode" ColumnName="countrycode" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="buyerlname" ColumnName="buyerlname" />
+          <ScalarProperty Name="buyerfname" ColumnName="buyerfname" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
